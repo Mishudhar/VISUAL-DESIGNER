@@ -1,5 +1,5 @@
 # Visual-Designer-Portfolio.
-This is basically a full blown website project made in HTML/CSS with 4 to 5 web pages for an imaginary visual designer on the internet.I Hope you will like my project !! And Note that the project is responsive in laptop screen and mobile screen.
+This is basically a full-blown website project made in HTML/CSS with 4 to 5 web pages for an imaginary visual designer on the internet. I hope you like my project !! And Note that the project is responsive on laptop screens and mobile screens.
 # Technologies Used
 - HTML-Hyper Text Markup Language
 - CSS - Cascadeing Spread Sheet
