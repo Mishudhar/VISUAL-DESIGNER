@@ -1,0 +1,704 @@
+ @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+ body{
+    background-color: rgb(17, 17, 17);
+} 
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 1.5%;
+}
+
+nav div img, footer .logo img{
+    width: 100px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 20%;
+}
+
+ul li{
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+}
+
+li span{
+    font-size: .8em;
+}
+
+/* Header */
+ header{
+    height: 100vh;
+    overflow: hidden;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main div{
+    color: #fff;
+    width: 50%;
+}
+
+main div img{
+    width: 82%;
+}
+
+main div h2{
+    color: #dc143c;
+}
+
+main div h1{
+    font-size: 60px;
+}
+
+main div article{
+    font-size: 1.125rem;
+    width: 480px;
+    margin: 2% 0 3%;
+}
+
+button{
+    background-color: #dc143c;
+    border: none;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: capitalize;
+} 
+
+
+/* Pop up box */
+
+  .container{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column; 
+} 
+.box{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 4% 8% 4% 3%;
+}
+
+.box aside h1{
+    font-size:45px;
+    color: #fff;
+    width: 500px;
+}
+
+aside article{
+    color: #fff;
+    width: 500px;
+    margin-top: 3%;
+}
+
+.quick-links{
+    color: #fff;
+    display: flex;
+}
+
+h5{
+    margin: 3%;
+    padding: 10px 20px;
+}
+
+
+.projects{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    flex-direction: column-reverse;
+    height: 185vh;
+    margin-bottom: 5%; 
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    width:83vw;
+}
+
+.heading div h1{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.heading div p{
+    font-size: 1em;
+    font-weight: 300;
+    margin: 2% 0;
+}
+
+.cards{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 15%;
+    margin-right: 14%;
+    margin-top: 2%;
+}
+
+.card div img, .card{
+    width: 35vw;
+}
+
+
+ .image {
+    padding: 12% 5%; 
+    width:35vw;
+    background-color: rgb(30, 30, 30);
+}
+
+.card div h2{
+    color: #fff;
+    margin: 3% 0 0 0;
+}
+
+div h3{
+    color: #dc143c;
+}
+
+/* Footer */
+
+ footer{
+    background-color: rgb(30, 30, 30);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1% 0;
+    margin-top: 2%;
+}
+
+footer .logo + div img{
+    width:40px;
+}
+
+footer .logo{
+    margin-left: -30%;
+}
+
+.skills{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.divs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.div{
+    background-color: rgb(30, 30, 30);
+    margin: 2%;
+    padding: 8%;
+}
+
+.div div article{
+    width: 180px;
+}
+
+
+.achivements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.card-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8%;
+    margin-left: 5%;
+    color: #fff;
+    margin-right: 2vw;
+}
+
+.card-group div{
+    background-color: rgb(30, 30, 30);
+     padding: 8% 5%;
+     width: 19vw;  
+}
+
+#xp{
+    width: 20vw;
+    color: #fff;
+}
+
+.skills{
+    position: relative;
+}
+
+.skills aside{
+    background-color: rgb(24, 24, 24);
+    width: 50vw;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.div:nth-child(2){
+    background-color: #dc143c;
+}
+
+
+.div:nth-child(2) div h3{
+    color: #fff;
+}
+.div div h3{
+    font-size: 1em;
+    margin-top: 10%;
+}
+
+h3 span{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.div div article{
+    margin-top:8%;
+}
+
+#xp h1{
+    color: #dc143c;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+div .num{
+    color: #dc143c;
+    font-size: 30px;
+}
+ 
+@media screen and (max-width:1400px) {
+    header{
+        height: 80vh;
+        overflow: hidden;
+    }
+
+    .skills{
+        margin-top: -1%;
+        height: 100vh;
+    }
+}
+
+
+@media screen and (max-width:1280px) {
+    header{
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .skills{
+        margin-top: 5%;
+        height: 80vh;
+        margin-bottom: -5%;
+    }
+
+    
+.projects{
+    height: 165vh;
+    margin-bottom: 5%; 
+}
+
+/* .card .image img{
+    width: 50%;
+} */
+
+/* .card div img, .card{
+    width: 30vw;
+}
+ .image {
+    padding: 12% 5%; 
+    width:30vw;
+    background-color: rgb(30, 30, 30);
+}
+ */
+
+}
+
+
+@media screen and (max-width:950px) {
+
+    header{
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .skills{
+        margin-top: -5%;
+        height: 60vh;
+    }
+
+    ul{
+        margin-left: 5%;
+    }
+    
+    ul li{
+        padding: 10px 15px;
+        font-size: 13px;
+    }
+    
+    li span{
+        font-size: .6em;
+    }
+   
+    main div h1{
+        font-size: 45px;
+    }
+    
+    main div article{
+        font-size: 12px;
+        width: 350px;
+        margin: 2% 0 3%;
+    }
+    
+    button{
+        padding: 10px 20px;
+        font-size: 15px;
+    } 
+    
+    .card div h2{
+        font-size: 20px;
+    }
+    
+    div h3{
+        font-size: 15px;
+    }
+    
+    .heading div h1{
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    .heading div p{
+        font-size: 15px;
+        font-weight: 300;
+        margin: 2% 0;
+       
+    }
+}
+
+
+   
+@media screen and (max-width:800px) {
+
+    header{
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .skills{
+        margin-top: -15%;
+        height: 60vh;
+    }
+
+
+    .projects{
+        height: 165vh;
+        margin-bottom: -25%; 
+    }
+    
+    main div h2{
+        font-size: 20px;
+    }
+
+    main div h1{
+        font-size: 40px;
+    }
+    
+    main div article{
+        font-size: 12px;
+        width: 300px;
+        margin: 2% 0 3%;
+    }
+    
+    .div{
+        margin: 0%;
+        padding: 4%;
+    }
+
+    .div div h3{
+        font-size: 1em;
+        margin-top: 10%;
+    }
+    
+    h3 span{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .div div article{
+        margin-top:8%;
+        font-size: 10px;
+        width: 80%;
+    }
+
+    .div div h2{
+        font-size: 15px;
+    }
+    
+    #xp h1{ 
+        font-size: 35px;
+        font-weight: 700;
+    }
+    #xp h2{
+        font-size: 15px;
+    }
+
+    div .num{
+        font-size: 20px;
+    }
+     
+   .divs{
+    width: 90%;
+   } 
+
+
+    nav div img, footer .logo img{
+        width: 80px;
+    }
+  
+    li span{
+        font-size: .6em;
+    }
+    .box{
+        width: 80%;
+        padding: 4% 8% 4% 3%;
+    }
+    
+    .box aside h1{
+        font-size:35px;
+        width: 500px;
+    }
+    
+    aside article{
+        width: 400px;
+        margin-top: 3%;
+    }
+    
+    
+    h5{
+        margin: 3%;
+        padding: 10px 20px;
+    }
+    
+    button{
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+       }
+     
+    aside button{
+        margin-right: 45px;
+    }
+}
+
+@media screen and (max-width:700px) {
+
+        header{
+            height: 70vh;
+            overflow: hidden;
+        }
+    
+        .skills{
+            margin-top: -20%;
+            height: 60vh;
+        }
+    
+    ul{
+        margin-left: 10%;
+    }
+    
+    ul li{
+        padding: 10px 10px;
+        font-size: 12px;
+    }
+    
+    li span{
+        font-size: .6em;
+    }
+    main div h1{
+        font-size: 30px;
+    }
+    
+    main div article{
+        font-size: 12px;
+        width: 250px;
+        margin: 2% 0 3%;
+    }
+     
+  .card div h2{
+        font-size: 15px;
+    }
+    
+    div h3{
+        font-size: 10px;
+    }
+    
+    .heading div h1{
+        font-size: 20px;
+    }
+    
+    .heading div p{
+        font-size: 10px;
+       }
+
+    .box{
+        width: 80%;
+        padding: 4% 0% 4% 3%;
+    }
+    
+    .box aside h1{
+        font-size:25px;
+        width: 400px;
+    }
+    
+    aside article{
+        width: 300px;
+        margin-top: 3%;
+    }
+    
+    h5{
+        margin: 3%;
+        padding: 10px 20px;
+    }
+    
+    button{
+        padding: 10px 20px;
+        font-size: 12px;
+        font-weight: 700;
+       }
+     
+       footer .logo{
+        width: 5px;
+        margin-left: -150px;
+       }
+ 
+}
+
+@media screen and (max-width:640px) {
+    
+        header{
+            height: 70vh;
+            overflow: hidden;
+        }
+    
+        .skills{
+            margin-top: -35%;
+            margin-bottom: -35%;
+            height: 60vh;
+        }
+    
+    ul{
+        margin-left: 5%;
+    }
+    
+    ul li{
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    
+    li span{
+        font-size: .6em;
+    }
+      
+    main div h2{
+        font-size: 15px;
+    }
+    
+    main div h1{
+        font-size: 20px;
+    }
+    
+    main div article{
+        font-size: 10px;
+        width: 200px;
+        margin: 2% 0 3%;
+    }
+    
+    .box{
+        width: 90%;
+        padding: 4% 0% 4% 3%;
+    }
+    
+    .box aside h1{
+        font-size:20px;
+        width: 300px;
+    }
+    
+    aside article{
+        width: 300px;
+        margin-top: 3%;
+        font-size: 10px;
+    }
+    
+    .quick-links{
+        margin-right: 65px;
+    }
+    
+    h5{
+        margin: 3%;
+        padding: 10px 20px;
+    }
+    
+    button{
+        padding: 8px 10px;
+        font-size: 8px;
+        font-weight: 400;
+       }
+     
+    
+}
+
+@media screen and (max-width:540px) {
+
+    header{
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    .skills{
+        margin-top: -45%;
+        height: 60vh;
+    }
+
+
+    .projects{
+        height: 165vh;
+        margin-bottom: -45%; 
+    }
+}
